@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     title: "AkohTech | Portfolio",
     description:
       "Creative Portfolio of AkohTech showcasing innovative web design, development, and creative solutions.",
-    url: "https://akohtech.com",
+    url: "https://my-portfolio-livid-zeta-95.vercel.app/",
     siteName: "AkohTech",
     images: [
       {
-        url: "https://akohtech.com/og-image.png",
+        url: "https://my-portfolio-livid-zeta-95.vercel.app/favicon.ico",
         width: 1200,
         height: 630,
         alt: "AkohTech Portfolio",
