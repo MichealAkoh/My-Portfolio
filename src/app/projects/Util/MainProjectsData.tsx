@@ -14,7 +14,7 @@ export const mainprojects: Project[] = [
     title: "Portfolio Website",
     description: "A personal portfolio built with Next.js, TypeScript, and Tailwind CSS.",
     image: "/assets/project1.png",
-    link: "https://example.com"
+    link: "https://github.com/MichealAkoh/My-Portfolio"
   },
   {
     title: "E-Commerce Platform",
