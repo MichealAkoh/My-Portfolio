@@ -15,6 +15,9 @@ const ExperienceSection: React.FC = () => {
             <ExperienceCard key={idx} experience={exp} />
           ))}
         </div>
+        <div className="grid md:grid-cols-3 gap-6">
+          
+          </div>
       </div>
     </section>
   );

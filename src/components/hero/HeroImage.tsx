@@ -9,9 +9,9 @@ const HeroImage: React.FC = () => {
       <Image
         src={profileImage}
         alt="Profile picture"
-        width={300}
-        height={300}
-        className="rounded-full shadow-lg border-4 border-white"
+        width={200}
+        height={200}
+        className="rounded-full shadow-lg"
       />
     </div>
   );

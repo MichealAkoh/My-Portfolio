@@ -20,5 +20,13 @@ export const aboutItems: AboutItem[] = [
   {
     title: "Vision",
     description: "To create user-friendly applications that enhance productivity and improve user experience."
+  },
+  {
+    title: "Education",
+    description: "Currently pursuing a degree in Software Engineering, combining academic theory with hands-on projects."
+  },
+  {
+    title: "Interests",
+    description: "Passionate about Artificial Intelligence, Blockchain Development, and contributing to Open Source communities."
   }
 ];

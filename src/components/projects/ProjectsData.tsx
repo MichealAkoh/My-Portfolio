@@ -10,45 +10,45 @@ import type { StaticImageData } from "next/image";
 export interface Project {
   title: string;
   description: string;
+  tags: string[];
   image: string | StaticImageData;
   link?: string;
 }
 
 export const projects: Project[] = [
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio built with Next.js, TypeScript, and Tailwind CSS.",
-    image: Project1,
-    link: "https://github.com/MichealAkoh/My-Portfolio"
-  },
-  {
-    title: "E-Commerce Platform",
-    description: "A scalable e-commerce platform with Stripe integration.",
-    image: Project2,
-    link: "https://github.com/MichealAkoh/vestvale-newcopy"
-  },
-  {
-    title: "Task Manager App",
-    description: "A Kanban-style task manager app with drag-and-drop functionality.",
-    image: Project3,
-    link: "https://github.com/AkohMicheal/AkohFlow"
-  },
-  {
-    title: "A Blog Platform",
-    description: "A blog platform with user authentication and markdown support.",
-    image: Project4,
-    link: "https://github.com/AkohMicheal/Responsive-Landing-Page"
-  },
-  {
-    title: "Learning Management System",
-    description: "A learning management system with course creation and user management.",
+    title: "LIT Learning Management System",
+    description: "A comprehensive Learning Management System (LMS) engineered for the Lampnet Institute of Technology. Features include robust course creation tools, student administration, and a hybrid registration workflow for both online and offline training modules.",
+    tags: ["Nodemon", "Mongoose", "Express", "Clarity", "EmailJS", "Socket.io", "Docker"],
     image: Project5,
-    link: "https://github.com/MichealAkoh/glowsville"
+    link: "https://institute.lampnets.com/"
   },
   {
-    title: "Company Website",
-    description: "A responsive company website with a modern design.",
+    title: "Lampnet Corporate Portal",
+    description: "Spearheaded the modernization of the company's legacy website to meet current industry UI/UX standards. The overhaul included updating core dependencies, optimizing call-to-action (CTA) logic, and restructuring the content strategy to better articulate service solutions.",
+    tags: ["React", "Bootstrap CSS", "UI/UX Design", "Sanity", "Tanstack"],
     image: Project6,
-    link: "https://github.com/MichealAkoh/goalquest-copy"
-  }
+    link: "https://lampnets.com/"
+  },
+  {
+    title: "Vestvale Real Estate & Interiors",
+    description: "A visually immersive, responsive web platform for a real estate and interior design firm. The site features a categorized product showcase for furniture and décor, optimized for high-resolution imagery and cross-device compatibility.",
+    tags: ["NextJS", "Tailwind CSS", "GSAP", "Cloudinary"],
+    image: Project4,
+    link: "https://vestvaleestate.com/"
+  },
+ /*  {
+    title: "Laptop City E-Commerce",
+    description: "A scalable B2C e-commerce platform designed for consumer electronics. Integrated the Paystack payment gateway for secure local transactions and built a dynamic inventory system to manage a diverse catalog of gadgets and devices.",
+    tags: ["React", "MUI", "Node.js", "Paystack API", "Web Vitals"],
+    image: Project2,
+    link: "https://www.laptopcity.com.ng/"
+  },
+  {
+    title: "GloryVille Solutions",
+    description: "A professional consultancy platform built for a business strategy firm serving MSMEs. Integrated Sanity CMS (Headless CMS) to power a dynamic 'Insights' blog, allowing the client to easily manage and publish market research articles.",
+    tags: ["NextJS", "Tailwind CSS", "Sanity CMS", "Content API"],
+    image: Project3,
+    link: "https://www.gloryvillesolutions.com.ng/"
+  }, */
 ];

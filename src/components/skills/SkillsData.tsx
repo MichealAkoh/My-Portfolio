@@ -26,22 +26,22 @@ export const skillIcons = [
 export const skillDetails = [
   {
     label: "Front-End",
-    items: ["HTML", "CSS", "JavaScript", "React", "Angular", "Vue.js", "Tailwind CSS", "Bootstrap"],
+    items: ["HTML", "CSS", "JavaScript", "Typescript", "React", "NextJS", "Angular", "Vue.js", "Tailwind CSS", "Bootstrap"],
   },
   {
     label: "Back-End",
-    items: ["Node.js", "Python", "Django"],
+    items: ["Node.js", "Python", "Django", "Express"],
   },
   {
     label: "Databases",
-    items: ["MySQL", "PostgreSQL", "MongoDB"],
+    items: ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Prisma"],
   },
   {
     label: "Tools & Platforms",
-    items: ["Git", "Docker", "AWS", "Vercel", "Netlify", "Heroku", "Firebase", "Railway"],
+    items: ["Git", "Docker", "AWS", "Vercel", "Netlify", "Heroku", "Firebase", "Railway", "C-Panel", "Cloudinary"],
   },
   {
     label: "Others",
-    items: ["RESTful APIs", "GraphQL", "Agile Methodologies", "CI/CD", "Unit Testing", "Web Accessibility (a11y)", "Responsive Design", "Cross-Browser Compatibility", "Version Control", "Code Review", "Debugging", "Performance Optimization", "SDLC", "Design Patterns", "CMS"],
+    items: ["RESTful APIs", "GraphQL", "Agile Methodologies", "CI/CD", "Unit Testing", "Web Accessibility (a11y)", "Responsive Design", "Cross-Browser Compatibility", "Version Control", "Code Review", "Debugging", "Performance Optimization", "SDLC", "Design Patterns", "CMS", "Google Analysis"],
   },
 ];
